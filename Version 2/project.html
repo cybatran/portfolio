@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="em">
+    <head>
+        <meta charset = "utf-8">
+       <title>Sragvi_Vadali </title>
+        <link rel="stylesheet" type = "text/css" href = "./bootstrap-4.1.2-dist/css/bootstrap.css">
+    </head>
+   <body>    
+   <!--This is the navegation code -->
+  <div class="jumbotron" style = "background:url(Images/background.jpg); background-repeat: no-repeat;">
+      <audio id="myAudio">
+        <source src="Music/Song.mp3" type="audio/mpeg">
+      </audio>
+        <div style = "text-align:center">
+          <button onclick="playAudio()" type="button"><img src = "Images/mic.png" width = 20px/></button>
+          <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+        </div>
+      <script>
+        var x = document.getElementById("myAudio"); 
+
+        function playAudio() { 
+          x.play(); 
+        } 
+
+        function pauseAudio() { 
+          x.pause(); 
+          alert('Pause the music');
+        } 
+        function highlight(id){
+          document.getElementById(id).className += "active"
+        }
+      </script>
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+          <div class="inner" style = "float: right" >
+            <nav class="nav nav-masthead justify-content-center">
+              <a class="nav-link" style = "color:white;" href="#"><strong><u>Home</u></strong></a>
+              <style>
+                .nav-link:hover {
+                  text-decoration: underline;
+                  font-weight:bold;
+                  }
+              </style>
+              <a class="nav-link" style = "color:white" href="about_me.html">Resume</a>
+              <a class="nav-link" style = "color:white" href="resume_2.0.html">Resume</a>
+              <a class="nav-link" style = "color:white" href="#">Projects</a>
+              <a class="nav-link" style = "color:white" href="#">Contact Me</a>
+            </nav>
+          </div>
+        </header>
+        <h1 class="display-4" style = "text-align: center;"> <strong>Resume</strong></h1>
+      </div>
+  </div>
+  <!--This is the content-->
+      </header>
+    <div style = "margin-bottom:50px">
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading" style = "margin:50px; font-size: 100px"><div>Sragvi Vadali's Engineering Portfolio</div></h1>
+        <div style = "padding-left: 250px; padding-right:250px;">
+          <p class="lead" style = "color:white">My name is Sragvi Vadali. I am a freshman at Dublin High School. 
+            I am interested in many things, such as baking, coding, and playing sports. 
+            Some may call me a multipotientialite.</p>
+        </div>
+          <p class="lead" style = "float:center">
+            <a href="#about" class="btn btn-lg btn-secondary">Learn more</a>
+          </p>
+      </main>
+    </div>
+  </div>
+  <div> <!--This is for the About Me page-->
+        <div class="jumbotron" id = "about" style = "background:url(Images/background.jpg); background-repeat: no-repeat;" onclick="highlight('aboutme')">
+  <h1 class="display-4" style = "text-align: center">About Me</h1>
+      </div>
+      <section class = "main">
+          <div>
+              <div class = "row">
+                  <div class = "col-md-4">
+                      <a href = "#">
+                          <img src = "Images/photo.jpg" class = "img-thumbnail"/>
+                      </a>
+                  </div>
+                  <div class = "col-md-8">
+                      <p>My name is Sragvi Vadali. I am currently a <strong>freshman</strong> at Dublin High School,in Dublin, California. 
+                      I enjoy to do many extracurricular activities such as playing sports, clubs, and much more hobbies. 
+                      I am currently a member in the Dublin High Cricket team. I played cricket for about 3 years. I also like to bake, swim and play basketball.
+                      I am also in the Dublin High Gael Force Robotics. 
+                      There are only a few people that receive the honor to be in a Vex Robotics Competition team, and I am part of the lucky few that received that honor, 
+                      being a member of 5327B. Outside of Robotics, I enjoy coding websites, playing music and hanging out with my family. I play the piano, alto saxophone, and violin. 
+                      I hope to learn many more instruments and learn new songs everyday. I believe that I enjoy many things, and I have a passion to many miscellaneous topics.
+                      This is why I am a multipotentialite, because I enjoy to do many things in all of the sides of the spectrum. </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </div>
+  <div> <!--This is for the Resume-->
+    <div class="jumbotron" id="resume">
+  <h1 class="display-4" style = "text-align: center">Resume</h1>
+      </div>
+      <div>
+          <strong>Sragvi Vadali <div>Dublin, California 94568</div></strong>
+         <div style = "background:black"><h3 style = "color:blue">Career Goals</h3></div>
+             <p>In my future, I would like to go to college for an engineering major, 
+             masters in business, and work at the top tier workplaces, such as Salesforce, Workday, and Google.</p>
+        <div style = "background:black"><h3 style = "color:blue">Education</h3></div>
+        <ul>
+            <li>Current School: Dublin High School, Dublin, California 94568
+            <ul><li>Freshman</li></ul>
+            </li>
+            <li>Colleges I hope to go to:
+                <ul>
+                    <li>University of California, Irvine
+                        <ul><strong>For what?</strong>
+                        <li>College of Computer Science</li>
+                        <li>College of Engineering</li>
+                        </ul>                    
+                    </li>
+                    <li>University of California, Berkeley
+                        <ul><strong>For what?</strong>
+                        <li>MET<strong>(Management, Entrepreneurship, & Technology Program)</strong> </li>
+                        <li>College of Engineering</li>
+                        </ul>                    
+                    </li>
+                    <li>Harvard University
+                        <ul><strong>For what?</strong>
+                        <li>College of Engineering</li>
+                        </ul>                    
+                    </li>
+                </ul>
+            </li>
+        </ul>
+      </div>
+       <div style = "background:black"><h3 style = "color:blue">Volunteer Experience</h3></div>
+       <ul>
+           <li>Painting the Temple Parking Lot</li>
+           <li>Helping a Bone Marrow Donation Tent</li>
+       </ul>
+        <div style = "background:black"><h3 style = "color:blue">Skills</h3></div>
+        <ul>
+            <li>Know <strong>more than 5</strong> programming languages</li>
+            <li>Built a website and games</li>
+        </ul>
+        <div style = "background:black"><h3 style = "color:blue">Academic Highlights</h3></div>
+        <ul>
+            <li>Recieving <strong>only</strong> Honor Roll in Middle School</li>
+            <li>A member of Gael Force Robotics, 5327B</li>
+        </ul>
+        <div style = "background:black"><h3 style = "color:blue">Extracurricular Activities</h3></div>
+        <ul>
+            <li>A member of Dublin High Cricket Team</li>
+            <li>In Dublin High's DECA chapter</li>
+            <li>Volunteering at the local Hindu, <strong>Shiva Vishnu</strong>, Temple</li>
+            <li>Play and Instuments
+                <ul>
+                    <li>Piano</li>
+                    <li>Violin</li>
+                    <li>Alto Saxophone</li>
+                </ul>
+            </li>
+            <li>Learning to Code and teaching others how to code.</li>
+        </ul>
+  </div>
+  <div><!--This is for the projects screen-->
+    <div class="jumbotron" id="projects">
+          <h1 class="display-4" style = "text-align: center"><strong>Projects</strong></h1>
+    </div>
+    <section class = "main">
+          <div class = "container">
+              <div class = "row">
+                  <div class = "col-md-4">
+                      <a href = "https://scratch.mit.edu/projects/244907034/">
+                        <iframe allowtransparency="true" width="300" height="300" src="//scratch.mit.edu/projects/embed/244907034/?autostart=false" frameborder="0" allowfullscreen></iframe>
+                      </a>
+                  </div>
+                  <div class = "col-md-8">
+                      <strong>Scratch</strong>
+                      <div>
+                      <strong style = "color:blue">Computer Science Principles</strong>
+                      </div>
+                      <h5>The Spell of Battles: A Wizard Fighting Game</h5>
+                      <p>In the beginning of the school year, I created a multilevel Scratch game with my partner, Diego van Schie. 
+                    This was a fun game and I learned multiple things during this process.</p>
+                    <a href = "https://docs.google.com/document/d/1K6Dm1gMXYoJRL-Nde69q2c8glN6ocdK2D8M_yjRH698/edit">Continue Reading...</a>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </div>
+  <div>
+      <div class="jumbotron" id="contact"> <!--This will let people contact me-->
+  <h1 class="display" style = "text-align:center">Contact Me</h1>
+      </div>
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-md-6" style = "text-align:center">
+            <h6>Location: </h1>
+                <p><a href = "https://www.tripadvisor.com/Attractions-g32313-Activities-Dublin_Tri_Valley_California.html">
+                    Dublin, California</a> <div>94568</div></p>
+             <p>Email me at <a href = "mailto:reachsragvi@gmail.com">reachsragvi@gmail.com</a></p>
+        </div>
+            <div class = "col-md-4"><!--This is for the google maps inframe-->
+              <iframe width="600" height="500" id="gmap_canvas" 
+              src="https://maps.google.com/maps?q=dublin%20ca&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              <a href="https://www.crocothemes.net"></a></div><style>.mapouter{text-align:right;height:500px;width:600px;}
+              .gmap_canvas {overflow:hidden;background:none;height:500px;width:600px;}</style>
+          </div>
+    </div>
+</div>
+  </div>
+      <footer class="mastfoot mt-auto jumbotron">
+        <div class="inner">
+          <a href = "mailto:reachsragvi@gmail.com"><img src="Images/email.jpg"
+          width = "100px"/></a>
+          </div>
+      </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>-->
+  </body>
+</html>
