@@ -1,122 +1,149 @@
 <!DOCTYPE html>
 <html lang="em">
-    <head>
-        <meta charset = "utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-       <title>About Me </title>
-          <link rel = "icon" href = "Images/sv.jpg">
-        <link rel="stylesheet" type = "text/css" href = "./bootstrap-4.1.2-dist/css/bootstrap.css">
-    </head>
-   <body>    
-   <!--This is the navegation code -->
-  <div class="jumbotron" style = "background:url(Images/home2.jpg); background-repeat: no-repeat; width: 100%; height: 20%">
-       <!-- This was for the audio files and music in the website: 
-     <audio id="myAudio">
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>About Me </title>
+    <link rel = "icon" href = "Images/sv.jpg">
+    <link rel="stylesheet" type = "text/css" href = "./bootstrap-4.1.2-dist/css/bootstrap.css">
+  </head>
+  <body>    
+    <!--This is the jumbotron code -->
+    <div class="jumbotron" style = "background:url(Images/home2.jpg); background-repeat: no-repeat; width: 100%; height: 20%">
+      <!-- This was for the audio files and music in the website: 
+
+      <audio id="myAudio">
         <source src="Music/Song.mp3" type="audio/mpeg">
       </audio>
-        <div style = "text-align:center">
-          <button onclick="playAudio()" type="button"><img src = "Images/mic.png" width = 20px/></button>
-          <button onclick="pauseAudio()" type="button">Pause Audio</button> 
-        </div>
+      <div style = "text-align:center">
+        <button onclick="playAudio()" type="button"><img src = "Images/mic.png" width = 20px/></button>
+        <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+      </div>
       <script>
         var x = document.getElementById("myAudio"); 
-
-        function playAudio() { 
-          x.play(); 
-        } 
-
-        function pauseAudio() { 
-          x.pause(); 
-          alert('Pause the music');
-        } 
-        function highlight(id){
-          document.getElementById(id).className += "active"
-        }
+          function playAudio() { 
+            x.play(); 
+          } 
+          function pauseAudio() { 
+            x.pause(); 
+            alert('Pause the music');
+          } 
+          function highlight(id){
+            document.getElementById(id).className += "active"
+          }
       </script>-->
-              <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="masthead mb-auto">
           <div class="inner" style = "float: right" >
             <nav class="nav nav-masthead justify-content-center">
+              <!--This is the navigation bar code--></This>
               <a class="nav-link" style = "color:white;" href="index.html">Home</a>
-              <style>
-                .nav-link:hover {
-                  font-weight:bold;
-                  }
-              </style>
               <a class="nav-link" style = "color:white" href="Vadali_about_me.html"><strong><u>About Me</u></strong></a>
               <a class="nav-link" style = "color:white" href="Vadali_resume_2.0.html">Resume</a>
               <a class="nav-link" style = "color:white" href="Vadali_projects.html">Projects</a>
               <a class="nav-link" style = "color:white" href="Vadali_contact_me.html">Contact Me</a>
+                <style>
+                  .nav-link:hover {
+                    font-weight:bold;
+                  }
+                </style>
             </nav>
           </div>
         </header>
+        <!--This is the tittle -->
         <h1 class="display-4" style = "text-align: center; color:white; margin-top:50px"> <strong>About Me</strong></h1>
       </div>
-  </div>
+    </div>
+    <!--This is the content-->
+    <div class = "container">
       <section class = "main">
-        <div>
-          <div class = "row">
-            <div class = "col-md-4" style = "margin-bottom: 50px">
-                <img src = "Images/images.jpg" class = "thumbnail" style = "border-radius: 30%;"/> 
-            </div>
-            <div class = "col-md-8">
-             <div>
-              <p>The American Dream has many shapes and sizes, to be a good husband 
-              or wife, to be a good worker, and finally, to live a lavish lifestyle. 
-              However, I believe that the true American Dream is to be successful. 
-              Hi, my name is <strong>Sragvi Vadali</strong>, and I believe that we,
-              as American citizens, can achieve this goal by living the lifestyle 
-              in which we are happy in. I believe that I can achieve this dream by 
-              first going to the college I want. I believe that I can achieve 
-              this goal by going to the workforce I like. For me, I want to go to 
-              a good college like Berkeley, LA, or Irvine. I would enroll in the 
-              College of Engineering or College of Computer Science there, starting 
-              my pathway to my career. I will work hard and become a major impact 
-              on the history of the school I choose to go to. Finally, I will do a
-              Masters and a Ph.D. of Business and Computer Science, ending my 
-              pathway at Google, Salesforce, or Workday.</p>
-             </div>
-             <div>
-               <p>Even though I am a freshman at Dublin High School (DHS), I 
-               believe that I have many skills that I can place on the table. Last 
-               year, I tutored two young 6th graders. They were failing in their classes, 
-               I was picked to mentor both of them, giving them most of my time and effort. 
-               At the end, I was able to bring their grades up to a passing grade, 
-               even having one of them receive a 3.0 GPA. This helped me in life. 
-               I used the skills I learned from mentoring the students in order 
-               to be able to help others, not just in school work, but in life lessons as well. </p>
-             </div>
-             <div>
-               <p>Aside from that, I consider myself to be a multipotentialite. A multipotentialite is “someone with many interests and creative pursuits”.  I like many subjects, such as, math, science, marine biology, aeronautical engineering, physics, and robotics. I am currently in Dublin High’s Vex Robotics competition team, 5327 B. With my teammates, we are building, and coding a robot that will be able to flip caps, hit flags with a ball, and place caps on a pole. This a challenging project, since we have limitations such as metal amount, defined maximum amount of motors at eight, and finally, a new coding software that we are recently learning. Since I am a freshman, I believe that I need to learn and understand Vex Robotics by discussing it with the upperclassmen. This will help we shape my path in robotics. I also am a member of other clubs such as the DHS Cricket Club, Dublin DECA, The Envirotech Club, and finally, Speech and Debate. I can currently working on a robot that is using a shape and attributes of marine life to help with underwater exploration. With the help of Mr. Kaehms, the teacher in charge of the Envirotech Club, and the many lessons I learn from that club, I believe that I can create a robot that can fulfil my expectations for my science fair project this year. Thank you for taking the time to read this information about who I am and my goals for the future. Feel free to email me if you have any questions. You can email me at: reachsragvi@gmail.com. Hope you have a nice week. </p>
-             </div>
-             <div style = "text-align: center">
-                <p><a class="btn btn-secondary" href="mailto:reachsragvi@gmail.com" role="button">Contact Me</a></p>
-             </div>
-            </div>
+        <div class = "row">
+          <div class = "col-md-4" style = "margin-bottom: 50px">
+            <img src = "Images/images.jpg" class = "thumbnail" style = "border-radius: 30%;"/> 
           </div>
-         </div>        
+          <div class = "col-md-8">
+          <!--This is about me in 3 paragraphs-->
+              <!--Paragraph 1 is my career goals/ objective in the future-->
+              <p>The American Dream has many shapes and sizes, to be a good husband 
+                  or wife, to be a good worker, and finally, to live a lavish lifestyle. 
+                  However, I believe that the true American Dream is to be successful. 
+                  Hi, my name is <strong>Sragvi Vadali</strong>, and I believe that we,
+                  as American citizens, can achieve this goal by living the lifestyle 
+                  in which we are happy in. I believe that I can achieve this dream by 
+                  first going to the college I want. I believe that I can achieve 
+                  this goal by going to the workforce I like. For me, I want to go to 
+                  a good college like Berkeley, LA, or Irvine. I would enroll in the 
+                  College of Engineering or College of Computer Science there, starting 
+                  my pathway to my career. I will work hard and become a major impact 
+                  on the history of the school I choose to go to. Finally, I will do a
+                  Masters and a Ph.D. of Business and Computer Science, ending my 
+                  pathway at Google, Salesforce, or Workday.
+              </p>
+            <!-- Paragraph 2 is about me tutoring 2 6th graders last year( shows my skills)-->  
+            <div>
+              <p>Even though I am a freshman at Dublin High School (DHS), I 
+                 believe that I have many skills that I can place on the table. Last 
+                 year, I tutored two young 6th graders. They were failing in their classes, 
+                 I was picked to mentor both of them, giving them most of my time and effort. 
+                 At the end, I was able to bring their grades up to a passing grade, 
+                 even having one of them receive a 3.0 GPA. This helped me in life. 
+                 I used the skills I learned from mentoring the students in order 
+                 to be able to help others, not just in school work, but in life lessons as well. 
+              </p>
+            </div>
+            <!--Paragraph 3 is about my skills and me being a multipotientialite-->
+            <div>
+              <p>Aside from that, I consider myself to be a multipotentialite. 
+              A multipotentialite is “someone with many interests and creative pursuits”.  
+              I like many subjects, such as, math, science, marine biology, aeronautical 
+              engineering, physics, and robotics. I am currently in Dublin High’s 
+              Vex Robotics competition team, 5327 B. With my teammates, we are building, 
+              and coding a robot that will be able to flip caps, hit flags with a ball,
+              and place caps on a pole. This a challenging project, since we have 
+              limitations such as metal amount, defined maximum amount of motors 
+              at eight, and finally, a new coding software that we are recently 
+              learning. Since I am a freshman, I believe that I need to learn and
+              understand Vex Robotics by discussing it with the upperclassmen. 
+              This will help we shape my path in robotics. I also am a member of 
+              other clubs such as the DHS Cricket Club, Dublin DECA, The Envirotech
+              Club, and finally, Speech and Debate. I can currently working on a
+              robot that is using a shape and attributes of marine life to help 
+              with underwater exploration. With the help of Mr. Kaehms, the teacher
+              in charge of the Envirotech Club, and the many lessons I learn from
+              that club, I believe that I can create a robot that can fulfil my 
+              expectations for my science fair project this year. Thank you for 
+              taking the time to read this information about who I am and my goals
+              for the future. Feel free to email me if you have any questions. 
+              You can email me at:<a href = "mailto:reachsragvi@gmail.com"> 
+              reachsragvi@gmail.com</a>. Hope you have a nice week. </p>
+              <!-- I make it able for them to contact me by placing my email and linking it -->
+            </div>
+              <div style = "text-align: center">
+                <p><a class="btn btn-secondary" href="mailto:reachsragvi@gmail.com" role="button">Contact Me</a></p>
+              </div>
+          </div>
         </div>
       </section>
     </div>
-  </div>
-  
-      <footer class="mastfoot mt-auto jumbotron row" style ="background-color:black;" >
+    <!--This is the footer of the page-->
+    <footer class="mastfoot mt-auto jumbotron row" style ="background-color:black;" >
       <div>
-          <a style = "margin-left:100px" class = "footer" href = "mailto:reachsragvi@gmail.com"><img src="Images/email.jpg"
+        <a style = "margin-left:100px" class = "footer" href = "mailto:reachsragvi@gmail.com"><img src="Images/email.jpg"
           width = "100px"/></a>
-          <style>
-            .footer:hover {
-              opacity:0.8 ;
-            }
-          </style>
         </div>  
         <div style = "margin-left: 100px; font-size: 25px; color:white;" class = "col-md-6">
-          <i>""The road to success is not easy to navigate, but with hard work, 
-          drive and passion, it's possible to achieve the American dream."
+          <i>"The road to success is not easy to navigate, but with hard work, 
+            drive and passion, it's possible to achieve the American dream."
             <div> - Tommy Hilfiger</div></i>
         </div>
           <a class = "footer" style = "text-align: right; margin-left:100px;" href = "Vadali_contact_me.html"><img src="Images/discord.jpg"
-          width = "100px"/></a> 
+              width = "100px"/></a> 
+              <!--This is the CSS for the hover feature in the footer, for the icons-->
+              <style>
+                .footer:hover {
+                  opacity:0.8 ; /*OCpacity = Tranperancy*/
+                }
+              </style>
     </footer>
-   </body>
+  </body>
 </html>
