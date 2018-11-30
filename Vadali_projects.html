@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+  <html lang="em">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+      <meta charset = "utf-8">
+      <title>Projects </title>
+      <link rel = "icon" href = "Images/sv.jpg">
+      <link rel="stylesheet" type = "text/css" href = "./bootstrap-4.1.2-dist/css/bootstrap.css">
+    </head>
+    <body>    
+      <div class="jumbotron" style = "background:url(Images/home2.jpg); background-repeat: no-repeat; width: 100%; height: 20%">
+        <!-- This was for the audio files and music in the website: 
+        <audio id="myAudio">
+          <source src="Music/Song.mp3" type="audio/mpeg">
+        </audio>
+        <div style = "text-align:center">
+          <button onclick="playAudio()" type="button"><img src = "Images/mic.png" width = 20px/></button>
+          <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+        </div>
+        <script>
+          var x = document.getElementById("myAudio"); 
+            function playAudio() { 
+              x.play(); 
+            } 
+            function pauseAudio() { 
+              x.pause(); 
+              alert('Pause the music');
+            } 
+            function highlight(id){
+              document.getElementById(id).className += "active"
+            }
+        </script>-->
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+          <header class="masthead mb-auto">
+            <div class="inner" style = "float: right" >
+              <!--This is the navegation code -->
+              <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link" style = "color:white;" href="index.html">Home</a>
+                <a class="nav-link" style = "color:white" href="Vadali_about_me.html">About Me</a>
+                <a class="nav-link" style = "color:white" href="Vadali_resume_2.0.html">Resume</a>
+                <a class="nav-link" style = "color:white" href="Vadali_projects.html"><strong><u>Projects</u></strong></a>
+                <a class="nav-link" style = "color:white" href="Vadali_contact_me.html">Contact Me</a>
+                <!--This is the CSS for the hover of the navagation bar-->
+                <style>
+                  .nav-link:hover {
+                    font-weight:bold;
+                  }
+                </style>
+              </nav>
+            </div>
+          </header>
+          <h1 class="display-4" style = "text-align: center;color:white; margin-top:50px"> <strong>Project</strong></h1>
+        </div>
+      </div>
+    <div class = "container" style = "margin-bottom: 100px">
+      <section class = "main">
+        <div>
+          <!--This portion is giving the information of the game and in what class I did it in-->
+          <div class = "row">
+            <div class = "col-md-6">
+              <p><strong>Course:</strong> Computer Science Principles (CSP)</p>
+              <div><p><strong>Durantion:</strong> August 30, 2018 - September 6, 2018</p></div>
+              <div><p><strong>Type:</strong> Scratch</p></div>
+              <div><h2 style = "color:rgb(255,153,51)"><strong><u>The Spell of Battle</u></strong></h2></div>
+              <div><p><strong>Objective:</strong> The Objective of the game is to go to the last 
+                      level and defeat the boss. This can be achieved by touching the villain
+                      and then going to the oposite side of the map.</p></div>
+                <!--This is where I explain what I learned, who I did it with, and how the game is played-->
+                <div style = "margin-top:40px"><p> For this Scratch game, I needed to retrace 
+                      my coding skills. Even though I had knowledge of this language, 
+                      I have not used it in many years, bringing me back to square one.
+                      With my partner, Diego van Schie, I learned many things such as how 
+                      to randomize the location of my character. I also learned the value 
+                      of teamwork. Even though we only had the instructions of building a 
+                      <strong>multilevel project,</strong> we worked together creating a 
+                      fun game. We however, had many ideas beforehand, we decided to 
+                      choose a game about a wizard that is fighting another wizard that is evil. 
+                      The main character's powers slowly progress, leading to him having a 
+                      "worping power", that allowed him to teleport around the map, a lazer 
+                      that will more to the location of the mouse. From each level, the 
+                      character will gain one power at a time, will making the level more difficult. At the end, we 
+                      learned many values such as coding skills, teamwork, and the power of 
+                      <a href = "https://docs.google.com/document/d/1K6Dm1gMXYoJRL-Nde69q2c8glN6ocdK2D8M_yjRH698/view"> documentation.</a></p>
+                  <div style = "text-align:center" class = "scratch">
+                    <!--This linked my documentation to my website-->
+                    <a class="btn btn-secondary" href="https://docs.google.com/document/d/1K6Dm1gMXYoJRL-Nde69q2c8glN6ocdK2D8M_yjRH698/view" 
+                        role="button">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <!--This is where I placed my game and a way to go to the webpage of my game-->
+              <div class = "col-md-6" style = "margin-top: 100px">
+                <!--The actual game on the Scratch webpage-->
+                <a href = "https://scratch.mit.edu/projects/244907034/#editor">
+                  <img class = "scratch" style = "height: 100px; text-align:center;" src = "Images/scratch.jpg"/>
+                </a>
+                <!--This CSS is the hovering feature for the scratch icon-->
+                  <style>
+                    .scratch:hover {
+                      opacity:0.5; /*Opacity = Transperancy*/
+                    }
+                  </style>
+                <!--This is my game embedded in the webpage-->
+                <!--You can only play if you are running Adobe Flash-->
+                <iframe allowtransparency="true" width="485" height="402" 
+                  src="//scratch.mit.edu/projects/embed/244907034/?autostart=false" 
+                  frameborder="0" allowfullscreen>
+                </iframe>
+                <!--This explains how to play the game-->
+                <p><strong>Use "W A S D " to move. Also, do not get hit by the 
+                red lazers!</strong></p>
+              </div>
+          </div>
+        </div>        
+      </section>
+    </div>
+    <!--This is code for the footer-->
+    <footer class="mastfoot mt-auto jumbotron row" style ="background-color:black; text-align: center" >
+      <div>
+        <a style = "margin-left:100px" class = "footer" href = "mailto:reachsragvi@gmail.com"><img src="Images/email.jpg"
+          width = "100px"/></a>
+      </div>  
+      <div style = "margin-left: 200px; font-size: 25px; color:white;">
+        <i>"No team works out teamwork." 
+          <div> - Dwyane Wades</div></i>
+        </div>
+          <a class = "footer" style = "text-align: right; margin-left:300px;" href = "Vadali_contact_me.html"><img src="Images/discord.jpg"
+            width = "100px"/></a> 
+          <!--This was the hower feature for the icons in the footer-->  
+          <style>
+            .footer:hover {
+              opacity:0.8 ; /*Opacity = Transperancy*/
+            }
+          </style>
+    </footer>
+  </body>
+</html>

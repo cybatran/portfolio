@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="em">
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Resume </title>
+    <link rel = "icon" href = "Images/sv.jpg">
+    <link rel="stylesheet" type = "text/css" href = "./bootstrap-4.1.2-dist/css/bootstrap.css">
+  </head>
+  <body>    
+  <!--This is the navegation code -->
+    <div class="jumbotron" style = "background:url(Images/home2.jpg); background-repeat: no-repeat; width: 100%; height: 20%">
+    <!-- This was for the audio files and music in the website: 
+      <audio id="myAudio">
+        <source src="Music/Song.mp3" type="audio/mpeg">
+          </audio>
+          <div style = "text-align:center">
+            <button onclick="playAudio()" type="button"><img src = "Images/mic.png" width = 20px/></button>
+            <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+          </div>
+          <script>
+            var x = document.getElementById("myAudio"); 
+              function playAudio() { 
+                x.play(); 
+              } 
+              function pauseAudio() { 
+                x.pause(); 
+                alert('Pause the music');
+              } 
+              function highlight(id){
+                document.getElementById(id).className += "active"
+              }
+          </script>-->
+          <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="masthead mb-auto">
+              <!--This is the navagation bar-->
+              <div class="inner" style = "float: right" >
+                <nav class="nav nav-masthead justify-content-center">
+                  <a class="nav-link" style = "color:white;" href="index.html">Home</a>
+                  <a class="nav-link" style = "color:white" href="Vadali_about_me.html">About Me</a>
+                  <a class="nav-link" style = "color:white" href="Vadali_resume_2.0.html"><strong><u>Resume</u></strong></a>
+                  <a class="nav-link" style = "color:white" href="Vadali_projects.html">Projects</a>
+                  <a class="nav-link" style = "color:white" href="Vadali_contact_me.html">Contact Me</a>
+                  <!--This is the CSS for the hover feature on the navagation bar-->
+                  <style>
+                    .nav-link:hover {
+                      font-weight:bold;
+                    }
+                  </style>
+                </nav>
+              </div>
+            </header>
+            <h1 class="display-4" style = "text-align: center; color:white; margin-top: 50px"> <strong>Resume</strong></h1>
+          </div>
+        </div>
+        <!--This is the content-->
+    <div class = "container">
+      <strong>Dublin, California 94568<div><a style = "color:black; text-decoration: none;" href = "mailto:reachsragvi@gmail.com">reachsragvi@gmail.com</a></div><div style = "font-size: 35px">Sragvi Vadali</div></strong>
+      <!--This is the code for my Career goals/ objective-->
+      <div>
+        <h3><u>CAREER GOALS</u></h3>
+      </div>
+        <p>In my future, I would like to go to college for an engineering major, 
+           masters in business, and work at the top tier workplaces, such as Salesforce, Workday, and Google.</p>
+        <!--This is the code for my education-->
+      <div><h3><u>Education</u></h3></div>
+        <ul>
+          <li>Current School: Dublin High School, Dublin, California 94568
+              <ul>
+                <li>Freshman</li>
+                <li>Courses: Computer Science Principles (CSP)</li>
+              </ul>
+          </li>
+          <li>Colleges I hope to go to:
+            <ul>
+              <li>University of California, Irvine
+                  <ul>
+                    <li>College of Computer Science</li>
+                    <li>College of Engineering</li>
+                  </ul>                    
+              </li>
+              <li>University of California, Berkeley
+                <ul>
+                  <li>MET<strong>(Management, Entrepreneurship, & Technology Program)</strong> </li>
+                  <li>College of Engineering</li>
+                </ul>                    
+              </li>
+              <li>Harvard University
+                <ul>
+                  <li>College of Engineering</li>
+                </ul>                    
+              </li>
+            </ul>
+          </li>
+        </ul>
+      <!--My Volunteering Tht I did in freshman year-->
+      <div class = "container" ><h3> <u>Volunteer Experience</u></h3></div>
+        <ul>
+          <li>Help renovate a 30 year old parking lot</li>
+          <li>Helping a Bone Marrow Donation Tent</li>
+        </ul>
+      <!--The code for my Skills/ Attributes -->
+      <div class = "container"><h3><u>Skills</u></h3></div>
+        <ul>
+          <li>Know <strong>more than 5</strong> programming languages</li>
+          <li>Built a website and games</li>
+        </ul>
+      <!-- My code for school awards/ highlights-->
+      <div><h3><u>Academic Highlights</u></h3></div>
+        <ul>
+          <li>Recieving <strong>only</strong> Honor Roll in Middle School</li>
+          <li>A member of Gael Force Robotics, 5327B</li>
+        </ul>
+        <!--This is a code for a buutton that allows the user to contact me-->
+        <!--This is not usable for Macs-->
+        <p><a class="btn btn-secondary footer" href="mailto:reachsragvi@gmail.com" role="button">Contact Me</a></p>
+    </div>
+    <!--This code is for the footer-->
+    <footer class="mastfoot mt-auto jumbotron row" style ="background-color:black;" >
+      <div>
+        <a style = "margin-left:100px" class = "footer" href = "mailto:reachsragvi@gmail.com"><img src="Images/email.jpg"
+          width = "100px"/></a>
+      </div>  
+      <div style = "margin-left: 200px; font-size: 25px; color:white;" class= "col-md-6">
+        <i>"Life is the art of drawing without an eraser." 
+          <div> - John W. Gardner</div></i>
+      </div>
+        <a class = "footer" style = "text-align: right; margin-left:100px;" href = "Vadali_contact_me.html"><img src="Images/discord.jpg"
+          width = "100px"/></a> 
+      <!-- This is the CSS for the icons in he footer and the button for contacting me-->
+      <style>
+        .footer:hover {
+          opacity:0.8 ; /*Opacity = Transperancy*/
+        }
+      </style>
+    </footer>
+  </body>
+</html>
