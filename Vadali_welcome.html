@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="em">
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">       
+    <title>Sragvi Vadali's Engineering Portfolio </title>
+    <link rel = "icon" href = "Images/Sragvi_Vadali.png">
+    <link rel="stylesheet" type = "text/css" href = "./bootstrap-4.1.2-dist/css/bootstrap.css">
+  </head>
+  <body> 
+  </style>
+  <!--This is the jumbotron code -->
+    <div class="jumbotron" style = "background:url(Images/home2.jpg); background-repeat: no-repeat; width: 101%; height: 2%; margin-bottom: 2rem;">
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+              <div class="inner" style = "float: right;padding-right: 1%" >
+                <!--This is the navigation code-->
+                <nav class="nav nav-masthead justify-content-center">
+                  <a class="nav-link" style = "color:white;" href="Vadali_welcome.html"><strong><u>Home</u></strong></a>
+                  <a class="nav-link" style = "color:white" href="Vadali_about_me.html">About Me</a>
+                  <a class="nav-link" style = "color:white" href="Vadali_resume_2.0.html">Resume</a>
+                  <a class="nav-link" style = "color:white" href="Vadali_projects.html">Projects</a>
+                  <a class="nav-link" style = "color:white" href="Vadali_contact_me.html">Contact Me</a>
+                  <!--This is the CSS for the hover of the navigation bar-->
+                    <style>
+                      .nav-link:hover {
+                        font-weight:bold;
+                      }
+                    </style>
+                </nav>
+              </div>
+        </header>
+          <h1 class="display-4" id = "header" style = "text-align: center;color:white; margin-top:50px;font-family: sans-serif"></h1>
+        <script>
+          var i = 0;
+          var txt = 'Sragvi Vadali\'s Engineering Portfolio'; /* The text */
+          var speed = 150; /* The speed/duration of the effect in milliseconds */
+          
+          function typeWriter() {
+            if (i < txt.length) {
+              document.getElementById("header").innerHTML += txt.charAt(i);
+              i++;
+              setTimeout(typeWriter, speed);
+            }
+          }
+          window.onload = typeWriter
+        </script>
+      </div>
+    </div>
+    <!--This is the content-->
+    <div class = "container">
+      <div style = "margin-bottom: 100px">
+        <div class="row">
+          <!--These are the content that exlpains what I do for fun-->
+          <div class="col-lg-4">
+            <img style = "border-radius:50%" src="Images/temple.jpg"  width="140" height="140">
+              <h2 style = "font-size:30px">Volunteering</h2>
+                <p> I helped a local temple in Livermore by painting their parking lot. 
+                    This was a long and difficult process, taking me, and my group, more than 24 hours to complete. </p>
+          </div> 
+          <!-- This is for the coding section-->
+          <div class="col-lg-4">
+            <img style = "border-radius:50%" src="Images/5327.png"  width="140" height="140">
+              <h2 style = "font-size:30px">Gael Force Robotics</h2>
+                <p> In this year, I was a member of Gael Force Robotics 5327B in the Vex Robotics Competition.
+                    This year we went to the State Competition, placing 4th at the competition</p>
+          </div>
+          <!-- This is the final segment-->
+          <div class="col-lg-4">
+            <img style = "border-radius:50%" src="Images/DUSD.png"  width="140" height="140">
+                <h2 style = "font-size:30px">Engineering Academy</h2>
+                  <p>This year, I got accepted into the Dublin Engineering and 
+                  Design Academy, also known as DEDA. There were more than 130 
+                  applicants and I was part of the many few that got accepted into the academy.</p>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <!--This is a segway to a little information about and my hobbies-->
+    <div class = "container">
+      <h4 style = "text-align:center"><strong>A Little More Info ...</strong></h4>
+      <section class = "main">
+        <div style = "margin-bottom: 50px">
+          <div class = "row">
+            <div class = "col-md-4">
+              <img src = "Images/photo.jpg" class = "thumbnail" style = "border-radius: 50%; height: 300px;"/> 
+            </div>
+            <div class = "col-md-8">
+              <p>My name is Sragvi Vadali. I am currently a <strong>freshman</strong> 
+                 at Dublin High School, in Dublin, California. Like many others,
+                 I enjoy to do many extracurricular activities such as playing sports, 
+                 clubs, and much more hobbies. For example, I like to bake, swim, 
+                 play cricket and play basketball. I am currectly in the Dublin High Cricket team. 
+                 I am also in the Dublin High Gael Force Robotics. Outside of Robotics, 
+                 I enjoy coding websites, playing music and hanging out with my family. 
+                 I play the piano, alto saxophone, and violin. I enjoy many things, 
+                 and I have a passion to many miscellaneous topics. This is why 
+                 I am a multipotentialite, because I enjoy to do many things in 
+                 all of the sides of the spectrum.
+              </p>
+              <div style = "text-align: center">
+                <p><a class="btn btn-secondary" id = "read" href="Vadali_about_me.html" 
+                      role="button"><strong>Continue Reading</strong></a>
+                </p>
+                    <!--This is the CSS for the hover feature on the button-->
+                      <style>
+                        #read:hover {
+                          opacity:0.6; /*Opacity = Transperancy*/
+                        }
+                      </style>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--This is the code for the footer attrtibute-->
+    <footer class="mastfoot mt-auto jumbotron row" style ="background-color:black;" >
+      <div>
+        <a style = "margin-left:100px" class = "footer" href = "mailto:reachsragvi@gmail.com"><img src="Images/email.jpg"
+width = "100px"/></a>
+          <!--This CSS is for th hover feature of the icons in the footer-->
+          <style>
+            .footer:hover {
+              opacity:0.8 ;
+            }
+          </style>
+      </div>  
+      <div style = "margin-left: 200px; font-size: 25px; color:white;" class = "col-md-6">
+        <i>"Perfection is impossible; just strive to do your best." 
+          <div> - Angela Watson</div></i>
+      </div>
+        <a class = "footer" style = "text-align: right; margin-left:100px;" href = "Vadali_contact_me.html"><img src="Images/discord.jpg"
+          width = "100px"/></a> 
+    </footer>
+  </body>
+</html>

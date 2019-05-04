@@ -4,42 +4,17 @@
     <meta charset = "utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>Resume </title>
-    <link rel = "icon" href = "Images/sv.jpg">
+    <link rel = "icon" href = "Images/Sragvi_Vadali.png">
     <link rel="stylesheet" type = "text/css" href = "./bootstrap-4.1.2-dist/css/bootstrap.css">
   </head>
   <body>    
   <!--This is the jumbotron code -->
-    <div class="jumbotron" style = "background:url(Images/home2.jpg); background-repeat: no-repeat; width: 100%; height: 20%; margin-bottom: 2rem;">
-      <!--I added the marin-bottom: 2rem because it was inflicting with the footer
-    code, leaving a white space in the bottom. This made me change the bootstrap in a minimal amount in the jumboton.--> 
-    
-    <!-- This was for the audio files and music in the website: 
-      <audio id="myAudio">
-        <source src="Music/Song.mp3" type="audio/mpeg">
-          </audio>
-          <div style = "text-align:center">
-            <button onclick="playAudio()" type="button"><img src = "Images/mic.png" width = 20px/></button>
-            <button onclick="pauseAudio()" type="button">Pause Audio</button> 
-          </div>
-          <script>
-            var x = document.getElementById("myAudio"); 
-              function playAudio() { 
-                x.play(); 
-              } 
-              function pauseAudio() { 
-                x.pause(); 
-                alert('Pause the music');
-              } 
-              function highlight(id){
-                document.getElementById(id).className += "active"
-              }
-          </script>-->
-          <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-            <header class="masthead mb-auto">
-              <!--This is the navigation bar-->
-              <div class="inner" style = "float: right" >
+    <div class="jumbotron" style = "background:url(Images/home2.jpg); background-repeat: no-repeat; width: 101%; height: 2%; margin-bottom: 2rem;">
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+          <div class="inner" style = "float: right;padding-right: 1%" >
                 <nav class="nav nav-masthead justify-content-center">
-                  <a class="nav-link" style = "color:white;" href="index.html">Home</a>
+                  <a class="nav-link" style = "color:white;" href="Vadali_welcome.html">Home</a>
                   <a class="nav-link" style = "color:white" href="Vadali_about_me.html">About Me</a>
                   <a class="nav-link" style = "color:white" href="Vadali_resume_2.0.html"><strong><u>Resume</u></strong></a>
                   <a class="nav-link" style = "color:white" href="Vadali_projects.html">Projects</a>
@@ -57,87 +32,13 @@
           </div>
         </div>
         <!--This is the content-->
-    <div class = "container">
-      <strong>Dublin, California 94568
-        <div>
-          reachsragvi@gmail.com
+        <div class = "container" >
+          <embed src="Resume.pdf" width="100%" height="1200px" 
+           type="application/pdf">
+           <p><a class="btn btn-secondary footer" href="mailto:reachsragvi@gmail.com" role="button">Contact Me</a></p>
         </div>
-        <div style = "font-size: 35px">
-          Sragvi Vadali
-        </div>
-      </strong>
-      <!--This is the code for my Career goals/ objective-->
-      <div>
-        <h3><u>Career Goals</u></h3>
-      </div>
-        <p>In my future, I would like to go to college for an engineering major, 
-           do an MBA, and work at the top tier workplaces, such as Salesforce, Workday, and Google.</p>
-        <!--This is the code for my education-->
-      <div><h3><u>Education</u></h3></div>
-        <ul>
-          <li>Current School: Dublin High School, Dublin, California 94568
-              <ul>
-                <li>Freshman</li>
-                <li>Courses: Computer Science Principles (CSP)</li>
-              </ul>
-          </li>
-          <li>Colleges I hope to go to:
-            <ul>
-              <li>University of California, Irvine
-                  <ul>
-                    <li>College of Computer Science</li>
-                    <li>College of Engineering</li>
-                  </ul>                    
-              </li>
-              <li>University of California, Berkeley
-                <ul>
-                  <li>MET<strong>(Management, Entrepreneurship, & Technology Program)</strong> </li>
-                  <li>College of Engineering</li>
-                </ul>                    
-              </li>
-              <li>Harvard University
-                <ul>
-                  <li>College of Engineering</li>
-                </ul>                    
-              </li>
-            </ul>
-          </li>
-        </ul>
-      <!--My Volunteering Tht I did in freshman year-->
-      <div class = "container" ><h3> <u>Volunteer Experience</u></h3></div>
-        <ul>
-          <li>Help renovate a 30 year old parking lot</li>
-          <li>Helping a Bone Marrow Donation Tent</li> 
-          <li>Helped <strong>3</strong> Eagle Scouts with their Eagle Scouts Final Project</li>
-        </ul>
-      <!--The code for my Skills/ Attributes -->
-      <div class = "container"><h3><u>Skills</u></h3></div>
-        <ul>
-          <li>Know <strong>more than 5</strong> programming languages</li>
-            <ul>
-              <li>Git</li>
-              <li>Command Line</li>
-              <li>Python</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Robot C</li>
-              <li>Etc.</li>
-            </ul>
-            <!--I linked the games portion tothe projects page just in case they are 
-            interested in my game. I also changed the color so that people know it is a link-->
-          <li>Built two websites and two <a href = "Vadali_projects.html">games</a></li>
-        </ul>
-      <!-- My code for school awards/ highlights-->
-      <div class = "container" style = "margin-left:4px"><h3><u>Academic Highlights</u></h3></div>
-        <ul>
-          <li>Recieving <strong>only</strong> Honor Roll in Middle School</li>
-          <li>A member of Gael Force Robotics, 5327B</li>
-          <li>Tutoring 2 6th Graders in 8th grade, bringing their grade up by at least one letter grade</li>
-        </ul>
-        <!--This is a code for a buutton that allows the user to contact me-->
         <!--This is not usable for Macs-->
-        <p><a class="btn btn-secondary footer" href="mailto:reachsragvi@gmail.com" role="button">Contact Me</a></p>
-    </div>
+        
     <!--This code is for the footer-->
     <footer class="mastfoot mt-auto jumbotron row" style ="background-color:black;" >
       <div>

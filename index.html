@@ -4,145 +4,22 @@
     <meta charset = "utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">       
     <title>Sragvi Vadali's Engineering Portfolio </title>
-    <link rel = "icon" href = "Images/sv.jpg">
-    <link rel="stylesheet" type = "text/css" href = "./bootstrap-4.1.2-dist/css/bootstrap.css">
+    <link rel = "icon" href = "Images/Sragvi_Vadali.png">
+    <link rel="stylesheet" type = "text/css" href = "main.css">
   </head>
-  <body>    
-  <!--This is the jumbotron code -->
-    <div class="jumbotron" style = "background:url(Images/home2.jpg); background-repeat: no-repeat; width: 100%; height: 20%; margin-bottom: 2rem;">
-      <!--I added the marin-bottom: 2rem because it was inflicting with the footer
-    code, leaving a white space in the bottom. This made me change the bootstrap in a minimal amount in the jumboton.--> 
-    
-      <!-- This was for the audio files and music in the website: 
-      
-        <audio id="myAudio">
-          <source src="Music/Song.mp3" type="audio/mpeg">
-        </audio>
-      <div style = "text-align:center">
-        <button onclick="playAudio()" type="button"><img src = "Images/mic.png" width = 20px/></button>
-        <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+  <!--  This is the link for all the documents: 
+  https://drive.google.com/drive/folders/1LdoGjCtCJfKUYX4fIGfQdAiYd_UF1DNE?usp=sharing -->
+  <body>
+     <div style = "text-align:center; padding-top: 10%;">
+        <img src = "Images/Logo.png" width = "20%" height = "20%" />
       </div>
-      <script>
-        var x = document.getElementById("myAudio"); 
-        function playAudio() { 
-          x.play(); 
-        } 
-        function pauseAudio() { 
-          x.pause(); 
-          alert('Pause the music');
-        } 
-        function highlight(id){
-          document.getElementById(id).className += "active"
-        }
-      </script>-->
-      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="masthead mb-auto">
-              <div class="inner" style = "float: right" >
-                <!--This is the navigation code-->
-                <nav class="nav nav-masthead justify-content-center">
-                  <a class="nav-link" style = "color:white;" href="index.html"><strong><u>Home</u></strong></a>
-                  <a class="nav-link" style = "color:white" href="Vadali_about_me.html">About Me</a>
-                  <a class="nav-link" style = "color:white" href="Vadali_resume_2.0.html">Resume</a>
-                  <a class="nav-link" style = "color:white" href="Vadali_projects.html">Projects</a>
-                  <a class="nav-link" style = "color:white" href="Vadali_contact_me.html">Contact Me</a>
-                  <!--This is the CSS for the hover of the navigation bar-->
-                    <style>
-                      .nav-link:hover {
-                        font-weight:bold;
-                      }
-                    </style>
-                </nav>
-              </div>
-        </header>
-          <h1 class="display-4" style = "text-align: center;color:white; margin-top:50px"> <strong>Sragvi Vadali's Engineering Portfolio</strong></h1>
-      </div>
-    </div>
-    <!--This is the content-->
-    <div class = "container">
-      <div style = "margin-bottom: 100px">
-        <div class="row">
-          <!--These are the content that exlpains what I do for fun-->
-          <div class="col-lg-4">
-            <img style = "border-radius:50%" src="Images/temple.jpg"  width="140" height="140">
-              <h2 style = "font-size:30px">Volunteering</h2>
-                <p> I helped a local temple in Livermore by painting their parking lot. 
-                    This was a long and difficult process, taking me, and my group, more than 24 hours to complete. </p>
-          </div> 
-          <!-- This is for the coding section-->
-          <div class="col-lg-4">
-            <img style = "border-radius:50%" src="Images/code.jpg"  width="140" height="140">
-              <h2 style = "font-size:30px">Coding</h2>
-                <p> In the summer of 2015, I went to India. I wanted to test my HTML coding skills by making a project about my 
-                    trip there. It was fun and I understood many of the attributes in HTML and CSS.</p>
-          </div>
-          <!-- This is the final segment-->
-          <div class="col-lg-4">
-            <img style = "border-radius:50%" src="Images/cap.jpg"  width="140" height="140">
-                <h2 style = "font-size:30px">Projects</h2>
-                  <p>Last year, I needed to work on a Civil Action Project, or <strong>CAP</strong>.
-                     We needed to decide what was wrong in the local area and fix it. 
-                     My group and I created <strong><u>Make Fallon Great Again,</u></strong> in order 
-                     to help Fallon Middle School go back into its original glory</p>
-          </div> 
+      <div class = "preload">
+        <div class = "logo" style = "text-align:center;">
+          <p style = "margin-left: 1%; ">Sragvi Vadali</p>
+          <div class = "loader1" id = "loader1"></div>
+          <div class = "loader2" id = "loader2"></div>
         </div>
       </div>
-    </div>
-    <!--This is a segway to a little information about and my hobbies-->
-    <div class = "container">
-      <h4 style = "text-align:center"><strong>A Little More Info ...</strong></h4>
-      <section class = "main">
-        <div style = "margin-bottom: 50px">
-          <div class = "row">
-            <div class = "col-md-4">
-              <img src = "Images/photo.jpg" class = "thumbnail" style = "border-radius: 50%; height: 300px;"/> 
-            </div>
-            <div class = "col-md-8">
-              <p>My name is Sragvi Vadali. I am currently a <strong>freshman</strong> 
-                 at Dublin High School, in Dublin, California. Like many others,
-                 I enjoy to do many extracurricular activities such as playing sports, 
-                 clubs, and much more hobbies. For example, I like to bake, swim, 
-                 play cricket and play basketball. I am currectly in the Dublin High Cricket team. 
-                 I am also in the Dublin High Gael Force Robotics. Outside of Robotics, 
-                 I enjoy coding websites, playing music and hanging out with my family. 
-                 I play the piano, alto saxophone, and violin. I enjoy many things, 
-                 and I have a passion to many miscellaneous topics. This is why 
-                 I am a multipotentialite, because I enjoy to do many things in 
-                 all of the sides of the spectrum.
-              </p>
-              <div style = "text-align: center">
-                <p><a class="btn btn-secondary" id = "read" href="Vadali_about_me.html" 
-                      role="button"><strong>Continue Reading</strong></a>
-                </p>
-                    <!--This is the CSS for the hover feature on the button-->
-                      <style>
-                        #read:hover {
-                          opacity:0.6; /*Opacity = Transperancy*/
-                        }
-                      </style>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <!--This is the code for the footer attrtibute-->
-    <footer class="mastfoot mt-auto jumbotron row" style ="background-color:black;" >
-      <div>
-        <a style = "margin-left:100px" class = "footer" href = "mailto:reachsragvi@gmail.com"><img src="Images/email.jpg"
-width = "100px"/></a>
-          <!--This CSS is for th hover feature of the icons in the footer-->
-          <style>
-            .footer:hover {
-              opacity:0.8 ;
-            }
-          </style>
-      </div>  
-      <div style = "margin-left: 200px; font-size: 25px; color:white;" class = "col-md-6">
-        <i>"Perfection is impossible; just strive to do your best." 
-          <div> - Angela Watson</div></i>
-      </div>
-        <a class = "footer" style = "text-align: right; margin-left:100px;" href = "Vadali_contact_me.html"><img src="Images/discord.jpg"
-          width = "100px"/></a> 
-    </footer>
+    <script src = "java.js"></script>
   </body>
 </html>
